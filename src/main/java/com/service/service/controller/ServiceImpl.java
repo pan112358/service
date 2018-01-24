@@ -13,9 +13,9 @@ public class ServiceImpl implements Service{
     private ServiceDelegate serviceDelegate;
 
 
-    public String helloworld(String name) {
+    public String sayHi(String name) {
 
-        return serviceDelegate.helloworld(name);
+        return serviceDelegate.sayHi(name);
     }
 
 }
